@@ -1,0 +1,24 @@
+F:AddButton({
+	Name = "Give Youtuber Mic",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/VENcgJVr", true))()
+  	end    
+})
+FF:AddButton({
+	Name = "Give Admin Animation",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/wAi5N9Yh", true))()
+  	end    
+})
+FF:AddButton({
+	Name = "Auto Player WORKING",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+  	end    
+})
+FF:AddButton({
+	Name = "Give Boss Mics",
+	Callback = function()
+        loadstring(game:HttpGetAsync("https://pastebin.com/raw/dQBRhwTk", true))()
+  	end    
+})
