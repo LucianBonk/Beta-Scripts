@@ -1,6 +1,6 @@
 if game.PlaceId == 155615604 then
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("Prison Life", "Sentinel")
+    local Window = Library.CreateLib("Prison Life", "Sentinel"
  
     -- MAIN
     local Main = Window:NewTab("Main")
@@ -42,4 +42,20 @@ if game.PlaceId == 155615604 then
  
     PlayerSection:NewSlider("Jumppower", "Changes the jumppower", 250, 50, function(v)
         game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
-        elseif 
+        
+        elseif game.PlaceId == 606849621 then
+        local Window = Library.CreateLib("jailbreak", "Sentinel")
+        local Main = Window:NewTab("Walkspeed")
+    local MainSection = Main:NewSection("Walkspeed")
+    local MainSection = Main:NewSection("jumppower")
+    end)
+       end)
+           end)
+        
+        
+        
+        
+        
+        
+        
+        
